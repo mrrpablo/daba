@@ -141,11 +141,12 @@ form button {
   margin-left: 10px;
   font-weight: 600;
   width: 50%;
+  font-size: 17px;
 }
 
 .investing-img {
   margin-top: 20px;
-  margin-left: 100px;
+  margin-left: 60px;
 }
 
 .investing-img img {
@@ -240,7 +241,7 @@ form button {
 }
 
 .chart img {
-  width: 60%;
+  width: 100px;
 }
 
 .chart {
@@ -288,26 +289,26 @@ form button {
 
 .confetti {
   position: absolute;
-  top: -20px;
-  left: 80px;
+  top: -50px;
+  left: 60px;
 }
 
 .fire {
   position: absolute;
   top: -10px;
-  right: 160px;
+  right: 95px;
 }
 
 .thumbs {
   position: absolute;
   top: -40px;
-  right: 70px;
+  right: 40px;
 }
 
 .cry {
   position: absolute;
   top: 50px;
-  right: 0;
+  right: -30px;
 }
 
 .love img,
@@ -602,7 +603,7 @@ section.eight {
 .ten h3 {
   color: #fff;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 20px;
   margin-bottom: 30px;
 }
 
