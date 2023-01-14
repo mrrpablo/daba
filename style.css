@@ -8,6 +8,7 @@
 
 body {
   background: #e5e5e5;
+  overflow-x: hidden;
 }
 
 /* .one,
@@ -979,4 +980,17 @@ footer {
   footer .socials{
     margin-right: 30px;
   }
+}
+
+.box{
+  transform: translateX(400%);
+  transition: transform 0.4s ease;
+}
+
+.box:nth-of-type(even) {
+  transform: translateX(-400%);
+}
+
+.box.show{
+  transform: translateX(0);
 }
