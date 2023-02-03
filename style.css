@@ -133,7 +133,7 @@ form input {
 }
 
 form button {
-  padding: 15px 25px;
+  padding: 15px 15px;
   outline: none;
   border: none;
   background: #8d6cfa;
@@ -740,6 +740,7 @@ footer {
 
   ul li a.active:hover{
     background: #8b82a7;
+    color: #fff;
   }
 
   .one {
