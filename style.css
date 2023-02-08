@@ -125,7 +125,7 @@ form {
 
 form input {
   width: 100%;
-  font-size: 16px;
+  font-size: 14px;
   padding: 10px 10px 10px 20px;
   border: 1px solid #ffff;
   border-radius: 10px;
@@ -133,7 +133,7 @@ form input {
 }
 
 form button {
-  padding: 15px 15px;
+  padding: 15px 25px;
   outline: none;
   border: none;
   background: #8d6cfa;
@@ -141,7 +141,7 @@ form button {
   border-radius: 50px;
   margin-left: 10px;
   font-weight: 600;
-  width: 50%;
+  width: 100%;
   font-size: 17px;
   white-space: nowrap;
 }
@@ -195,8 +195,13 @@ form button {
   margin-top: 20px;
 }
 
+.assets-img{
+  height: 308px;
+}
+
 .assets-img img {
   width: 100%;
+  object-fit: cover;
 }
 
 /* section-two ends */
@@ -236,6 +241,7 @@ form button {
 
 .pre-img {
   position: relative;
+  height: 289px;
 }
 
 .lady img {
@@ -282,6 +288,7 @@ form button {
 .social-img {
   position: relative;
   margin-top: 50px;
+  height: 229px;
 }
 
 .love {
@@ -292,19 +299,19 @@ form button {
 .confetti {
   position: absolute;
   top: -50px;
-  left: 60px;
+  left: 100px;
 }
 
 .fire {
   position: absolute;
-  top: -10px;
-  right: 95px;
+  top: 30px;
+  right: 165px;
 }
 
 .thumbs {
   position: absolute;
   top: -40px;
-  right: 40px;
+  right: 90px;
 }
 
 .cry {
@@ -345,6 +352,9 @@ form button {
 /* section-four ends */
 
 /* section- five */
+.five{
+  margin-top: 100px;
+}
 .five h2 {
   text-align: center;
   font-weight: 600;
@@ -408,6 +418,7 @@ section.six {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin-bottom: 100px;
 }
 
 .africa {
@@ -445,6 +456,10 @@ a.waitlist {
   font-weight: 600;
 }
 
+.tips-img{
+  height: 547px;
+}
+
 .tips-img img {
   width: 100%;
   margin-top: 30px;
@@ -455,7 +470,6 @@ a.waitlist {
 /* section seven */
 .seven {
   text-align: center;
-  margin-top: 50px;
 }
 
 .seven h2 {
@@ -510,7 +524,7 @@ section.eight {
   background-repeat: no-repeat;
 }
 .eight h2 {
-  text-align: center;
+  text-align: left;
   font-weight: 500;
   font-size: 35px;
   color: #16054e;
@@ -681,10 +695,8 @@ footer {
   .one,
   .two,
   .three,
-  .four,
   .five,
   .seven,
-  .eight,
   .nine,
   nav {
     width: 90%;
@@ -758,7 +770,9 @@ footer {
   }
 
   .investing h1{
-    width: 280px;
+    width: 380px;
+    font-size: 48px;
+    line-height: 64px;
   }
 
   .investing-img{
@@ -774,7 +788,8 @@ footer {
   }
 
   form button {
-    width: 20%;
+    width: 22%;
+    font-size: 14px;
   }
 
   .diversify {
@@ -783,6 +798,10 @@ footer {
 
   .assets{
     width: 45%;
+  }
+
+  .assets h2{
+    font-size: 48px;
   }
 
   .assets h2,
@@ -794,6 +813,13 @@ footer {
   .assets-img{
     width: 45%;
     margin-right: 50px;
+    height: 490px;
+  }
+
+  .assets-img img{
+    background-size: cover;
+    background-position: bottom;
+    height: 500px;
   }
 
   .portfolios {
@@ -813,12 +839,21 @@ footer {
     width: 400px;
   }
 
+  .pre-img{
+    height: 280px;
+  }
+
   .pre-img img{
     width: 450px;
+    height: 480px;
   }
 
   .chart img{
     width: 200px;
+  }
+
+  .ladies img{
+    height: 400px;
   }
 
   .love {
@@ -892,6 +927,7 @@ footer {
 
   .tips-img img{
     width: 400px;
+    height: 526px;
   }
 
   .build {
@@ -918,6 +954,10 @@ footer {
 
   .update-img{
     width: 45%;
+  }
+
+  .eight h2{
+    margin-left: 100px;
   }
 
   .hop {
